@@ -1,0 +1,22 @@
+{
+	"image_dir": "./image",
+	"swarm_dir": "./swarm",
+	"registry": "192.168.1.5:5000",
+	"app_dir": "./app_normal",
+	"servers":[
+		{
+			"ip" : "192.168.1.6",
+			"user": "viethq",
+			"pass": "a",
+			"node_type": "master",
+			"role" : "storage"
+		},
+        {
+            "ip" : "192.168.1.5",
+            "user": "viethq",
+            "pass": "a",
+            "node_type": "worker",
+			"role" : "proxy"
+        }
+  ]
+}
